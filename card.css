@@ -1,0 +1,144 @@
+/*
+
+Tips and Tricks:
+
+
+shorthands for padding and margin:
+if we give only one value, it will apply to all of them,
+if we give 2 values, first one is for {top, bottom} second one is for {left, right}
+if we give 3 values, first one is for {top} second one is for {left, right} third one is for {bottom}
+if we give 4 values, first one is for {top} second one is for {right} third one is for {bottom} fourth one is for {left}
+
+padding: 10px;
+
+is same as 
+
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+---------------------------------
+padding: 10px 30px;
+
+same as
+
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 10px;
+padding-left: 30px;
+---------------------------------
+padding: 10px 30px 5px;
+
+same as
+
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 5px;
+padding-left: 30px;
+---------------------------------
+padding: 10px 30px 5px 15px;
+
+same as
+
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 5px;
+padding-left: 15px;
+---------------------------------
+
+
+
+Padding
+Distance between Element and INNER elements
+(number + unit e.g 10px)
+units = px, %, em, vh, vw, rem.
+(can be any positive number)
+
+e.g. 
+padding-left: 10px;
+padding-top: 20px;
+padding: 0px;
+
+lear more at: https://www.w3schools.com/cssref/pr_padding.asp
+--------------------------------
+
+
+
+MARGIN
+distance between Elements
+(number + unit e.g 10px)
+units = px, %, em, vh, vw, rem.
+(can be any positive and negative number, if we say margin-right: -10px instead of pushing the other element, it will push itself into it)
+
+---||---
+[SAME AS PADDING just instead of padding-left we say margin-left etc]
+e.g. 
+margin-left: 10px;
+margin-top: 20px;
+margin: 0px;
+---||---
+
+learn more at: https://www.w3schools.com/cssref/pr_margin.asp
+---------------------------------
+
+
+BORDER RADIUS
+defines the radius of the element's corners, This property allows you to add rounded corners to elements
+
+e.g.
+border-radius: 30px;
+
+learn more at: https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+
+----------------------------------
+
+COLOR
+defines the color of the fonts 
+(if your thinking of coloring the background, use {background-color} this is just for the text)
+color: {HEX, RGB, HSL, HWB}
+
+e.g. 
+color: #000;
+color: rgb(255,255,255);
+
+learn more at: https://www.w3schools.com/cssref/pr_text_color.asp
+
+----------------------------------
+
+BORDER
+defines a border around the element
+
+border: {size} {type} {color}
+
+{size} = number + unit
+{type} = dotted, solid, double, dashed
+{color} = HEX, RGB, HSL, HWB
+
+e.g.
+border: 1px solid #000
+border: 10px dashed rgb(255,255,255)
+
+learn more at: https://www.w3schools.com/cssref/pr_border.asp
+
+----------------------------------
+
+
+
+One last set of tips,
+
+Dont forget the semicolon ; at the end of each declaration
+Dont forget the UNIT value, padding-left: 10 or 10 px is not CORRECT, it should be padding-left: 10px;
+Make sure you open and close the Rules
+
+all set, 
+Go wild!
+
+(̿▀̿‿ ̿▀̿ ̿)
+
+
+(write code after the slash, two rows below, inside here it'll be just a comment, the browser wont detect it)
+*/
+
+div {
+    
+}
